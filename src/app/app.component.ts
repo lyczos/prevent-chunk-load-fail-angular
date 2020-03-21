@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'prevet-chunk-load-fail-angular';
+  title = 'prevent-chunk-load-fail-angular';
 }

@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('prevet-chunk-load-fail-angular app is running!');
+    expect(page.getTitleText()).toEqual('prevent-chunk-load-fail-angular app is running!');
   });
 
   afterEach(async () => {

@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'prevet-chunk-load-fail-angular'`, () => {
+  it(`should have as title 'prevent-chunk-load-fail-angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('prevet-chunk-load-fail-angular');
+    expect(app.title).toEqual('prevent-chunk-load-fail-angular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('prevet-chunk-load-fail-angular app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('prevent-chunk-load-fail-angular app is running!');
   });
 });
